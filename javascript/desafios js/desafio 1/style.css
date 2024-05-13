@@ -1,0 +1,28 @@
+
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    animation: blink 1s infinite; /* Altere a duração conforme necessário */
+  }
+
+h1{
+    color:rgb(0, 255, 64);
+    text-align: center;
+    font-size: 80px;
+}
+h2{
+    color: rgb(138, 165, 42);
+    text-align: center;
+    font-size: 40px;
+}
